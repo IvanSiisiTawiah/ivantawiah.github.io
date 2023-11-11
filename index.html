@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Ivan now.">
+    <meta name="author" content="Ivan Siisi Tawiah">
+    <title>Ivan Siisi Tawiah's | Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.x.com/@siisi_tv"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/siisi_tv"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.linkedIn.com/in/ivan-siisi-tawiah"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">Ivan Siisi Tawiah</h1>
+                <h6 class="header-mono" >Software Developer | Graphic Designer</h6>
+                <button id="downloadResume" class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Download Resume</button>
+                <script>
+                    document.getElementById('downloadResume').addEventListener('click', function() {
+                        //Specifying document URL
+                        var documentURL = 'assets/resume.pdf';
+                        var fileName = 'ivan-siisi-tawiah-resume.pdf';
+                        //Creating an invisible element that would trigger the download
+                        var a = document.createElement('a');
+                        a.href = documentURL;
+                        a.download = fileName;
+                        //Trigger a click event
+                        a.style.display = 'none';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    });
+                </script>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title">Ivan Siisi Tawiah</h5>
+                        <div class="brand-subtitle">Software Developer | Graphic Designer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Software Developer located In The Wonderlands of Africa Ghana</h5>
+                <p class="mt-20">An enthusiastic and a highly amiable person in the field of Science, Technology and Engineering with a technical background in Robotics and ethical problem solving. Am also aspiring to be part of a team where my skills and knowledgeable abilities would help me be a great contributor to the company’s effort </p>
+                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <li><span>Birthdate</span> : July 4th, 2004</li>
+                    <li><span>Email</span> : tawiahivansiisi@gmail.com</li>
+                    <li><span>Phone</span> : + (233) 0 506 138 201</li>
+                    <li><span>LinkedIn</span> : Ivan Siisi Tawiah </li>
+                    <li><span>Address</span> : 4th Link street - Spintex, Accra</li>
+                </ul>
+                <ul class="social-icons pt-3">
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                </ul>  
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Graphic Designing</h6>
+                        <p class="subtitle"> Digital Art, Logo Designing, UI/UX Designing, etc.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Software development</h6>
+                        <p class="subtitle">Android Dev, Web Dev, Generative AI, etc</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Digital Marketing</h6>
+                        <p class="subtitle">Data analytics, SEO's, SEM's, Social media Management, etc</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Experience</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P>Marketing Technologist @ Eatops Fast Food Restaurant</P>
+                            <P class="subtitle">Me, as the marketing technologist of Eatops Fast Food, I harness technology and data for marketing, customer engagement, and partnerships, all aimed at increasing revenue and restaurant success.</P>
+                            <hr>
+                            <h6 class="title text-danger">2021 - Present</h6>
+                            <P>Programing Tutor @ Sololearn</P>
+                            <P class="subtitle">I've teaching programming concepts and languages to students, also providing guidance and support for coding projects and problem-solving.</P>
+                            <hr>
+                            <h6 class="title text-danger">2020 - 2021</h6>
+                            <P>Social Media Manager @ Mood Seasos Perfumery</P>
+                            <P class="subtitle">I managed social media for Mood Seasons Perfumery, creating content, engaging the audience, and enhancing the company’s online presence.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2022 - Present</h6>
+                            <P>BSc. Aerospace Engineering @ Kwame Nkrumah University of Science and Technology, Kumasi Ghana</P>
+                            <P class="subtitle">I am currently pursuing a Bachelor of Science in Aerospace Engineering, where I am gaining in-depth knowledge and skills in the field of aerospace technology, aerodynamics, and space exploration. My studies prepare me to contribute to innovative solutions and advancements in the aerospace industry.</P>
+                            <hr>
+                            <h6 class="title text-danger">2021 - 2022</h6>
+                            <P>Certifications in Software Development @ Sololearn</P>
+                            <P class="subtitle">I achieved most milestones of my software journey by gaining more knowledge and experience with Sololearn</P>
+                            <hr>
+                            <h6 class="title text-danger">2018 - 2021</h6>
+                            <P>General Science | Computer Science @ Accra Accademy, Ghana</P>
+                            <P class="subtitle">I completed my high school education with a focus on General Science and Information and Communication Technology (I.C.T). This foundation provided me with a well-rounded understanding of scientific principles and modern technology, further complementing my academic journey in Aerospace Engineering and Software development</P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>Android &amp; Web development</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Ethical Problem Solving</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Leardership</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>graphic Designing</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Data analytics</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Robotics</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>French</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Ghanaian Twi</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 77%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">400+</h1>
+                            <p class="text-light mb-1">Hours Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">19</h1>
+                            <p class="text-light mb-1">Certificates Earned</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">20+</h1>
+                            <p class="text-light mb-1">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">38</h1>
+                            <p class="text-light mb-1">Health Checks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">EV3 Robotics Tutoring</h5>
+                            <P class="subtitle">I also offer EV3 robotics tutorials, sharing my passion for robotics and programming with students and enthusiasts in Robotics. Through hands-on lessons and guidance, I empower individuals to explore the exciting world of robotics, fostering creativity and problem-solving skills.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-desktop text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Website Development</h5>
+                            <P class="subtitle"> This service showcases my expertise in creating, optimizing, and maintaining websites which encompasses designing user-friendly interfaces, enhancing website performance, and ensuring a visually appealing and functional online presence.</P><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-image text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Graphic Designing</h5>
+                            <P class="subtitle">I also provide graphic design services, where I craft visual content that conveys messages effectively. Using a mix of typography, images, and layout, I create stunning designs, print materials, and branding. My work enhances the visual identity of businesses or individuals, making them more engaging.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-android text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Android Apps Development</h5>
+                            <P class="subtitle">I also offer Android app development services. This means I create mobile applications tailored specifically for Android devices. I handle the entire process, from design to coding, testing, and deployment, ensuring that the apps I develop run smoothly on Android devices. </P><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-blackboard text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Computer Programming Tutoring</h5>
+                            <P class="subtitle">I provide computer programming tutoring services, where I assist individuals in learning and mastering different programming languages and concepts. My role involves offering guidance, explanations, and practical exercises to help students understand coding principles and develop problem-solving skills.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-stats-up text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Social Media | Digital Marketing</h5>
+                            <P class="subtitle">I provide social media and digital marketing services, where I specialize in promoting businesses and their products or services online. My role involves creating and executing comprehensive marketing strategies across various digital platforms, including social media, search engines, email, and websites.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-custom-gray" id="price">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Tutorial</span> Packages</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Free</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">0</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">1 <span class="text-muted">Standard Course</span></li>
+                            <li class="list-item">Full <span class="text-muted">Course Tutorial Video on Preffered Course</span></li>
+                            <li class="list-item">No <span class="text-muted"><s>Virtual Class Sessions</s></span></li><br>
+                            <li class="list-item">No <span class="text-muted"><s>In-person Class Sessions</s></span></li><br>
+                        </ul>
+                        <button id="freePackage" class="btn btn-primary btn-rounded w-lg">Enquire</button>
+                        <script>
+                            document.getElementById('freePackage').addEventListener('click', function() {
+                                var email = "tawiahivansiisi@gmail.com";
+                                var subject = "Free Tutorial Package Enquiry";
+                                var body = "I'd Like to enquire about the free package please ";
+                            
+                                var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+                            
+                                window.location.href = mailtoLink;
+                            });
+                            </script>
+                            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Basic</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">32</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">3 <span class="text-muted">Standard Courses</span></li>
+                            <li class="list-item">3 <span class="text-muted">Tutorial Videos</span></li>
+                            <li class="list-item">4 times Monthly <span class="text-muted">Virtual Class Sessions</span></li>
+                            <li class="list-item">No <span class="text-muted"><s>In-person Class Sessions</s></span></li>
+                            <li class="list-item"><span class="text-muted">Project Build</span></li><br>
+                        </ul>
+                        <button id="basicPackage" class="btn btn-primary btn-rounded w-lg">Enquire</button>
+                        <script>
+                            document.getElementById('basicPackage').addEventListener('click', function() {
+                                var email = "tawiahivansiisi@gmail.com";
+                                var subject = "Basic Tutorial Package Equiry";
+                                var body = "I'd Like to enquire about the Basic package please ";
+                            
+                                var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+                            
+                                window.location.href = mailtoLink;
+                            });
+                            </script>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center price-card-requried mb-4">
+                        <h3 class="price-card-title">Exclusive</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">53</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">Unlimited <span class="text-muted">Professional Courses</span></li>
+                            <li class="list-item">Unlimited <span class="text-muted">Tutorial Videos</span></li>
+                            <li class="list-item">8* Monthly <span class="text-muted">Virtual Class Sessions</span></li>
+                            <li class="list-item">1 <span class="text-muted">In-person Class Sessions</span></li>
+                            <li class="list-item"><span class="text-muted">Project Build</span></li>
+                            <li class="list-item"><span class="text-muted">Career Advisory and Mentorship</span></li>
+                        </ul>
+                        <button id="exclusivePackage" class="btn btn-primary btn-rounded w-lg">Enquire</button>
+                        <script>
+                            document.getElementById('exclusivePackage').addEventListener('click', function() {
+                                var email = "tawiahivansiisi@gmail.com";
+                                var subject = "Exclusive Tutorial Package Equiry";
+                                var body = "I'd Like to enquire about the Exclusive package please ";
+                            
+                                var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+                            
+                                window.location.href = mailtoLink;
+                            });
+                            </script>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Pro</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">60</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">Unlimited <span class="text-muted">Professional Courses</span></li>
+                            <li class="list-item">Unlimited <span class="text-muted">Tutorial Videos</span></li>
+                            <li class="list-item">8* Monthly <span class="text-muted">Virtual Class Sessions</span></li>
+                            <li class="list-item">2 <span class="text-muted">In-person Class Sessions</span></li>
+                            <li class="list-item"><span class="text-muted">Project Build</span></li>
+                        </ul>
+                        <button id="proPackage" class="btn btn-primary btn-rounded w-lg">Enquire</button>
+                        <script>
+                            document.getElementById('proPackage').addEventListener('click', function() {
+                                var email = "tawiahivansiisi@gmail.com";
+                                var subject = "Pro Tutorial Package Equiry";
+                                var body = "I'd Like to enquire about the Pro package please ";
+                            
+                                var mailtoLink = "mailto:" + email + "?subject=" + subject + "&body=" + body;
+                            
+                                window.location.href = mailtoLink;
+                            });
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-dark py-5">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <button class="btn bg-primary w-lg" >Hire me</button>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Merchandise</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        All
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Hoodies
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        Tops
+                    </a>
+                    <a href="#" data-filter=".web">
+                        items
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ITEM</h6>
+                                    <p class="subtitle">A crockery bag to help accomodate your personal items</p>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ITEM</h6>
+                                    <p class="subtitle">Siisi's body oil perfume</p>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HOODIE</h6>
+                                    <p class="subtitle">Visualize LAMLA Mode with this cool Jacket</p>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ITEM</h6>
+                                    <p class="subtitle">Start your coffee morning with Siisi' Mug</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HOODIE</h6>
+                                    <p class="subtitle">Visit the fabulous city of Ghana in Siisi's style</p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">ITEM</h6>
+                                    <p class="subtitle">Send letters and gifrt card with Siisi's Letter card</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 advertising new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HOODIE</h6>
+                                    <p class="subtitle">Just keep life simple with Siisi </p>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 advertising new"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">HOODIE</h6>
+                                    <p class="subtitle">Visit the fabulous city of Ghana in Siisi's style</p>
+                                </div>
+                            </div>
+                        </div>
+                                
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TOP</h6>
+                                    <p class="subtitle">Siisi TV T-shirt, Available in 5 Colors</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TOP</h6>
+                                    <p class="subtitle">Activate LAMLA Mode in style</p>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TOP</h6>
+                                    <p class="subtitle">Come visit fabulous Accra in style</p>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TOP</h6>
+                                    <p class="subtitle">Never give up on that goal</p>
+                                </div>
+                            </div>
+                        </div>                                                      
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TOP</h6>
+                                    <p class="subtitle">Grab my Gaming Streaming Merch</p>
+                                </div>
+                            </div>
+                        </div>                                                   
+                    </div>
+                </div> 
+            </div>  
+        </div>            
+    </section>
+    <!-- End of portfolio section -->
+
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Upcoming <span class="text-danger">Projects</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Aerospace Simulation App with Infographics</h6>
+
+                        <p class="post-details">
+                            <a>Number of pledged Supporters:</a>
+                            <a><i class="ti-hand-open text-danger"></i> 3</a>
+                        </p>
+                        <p><b>Project Description:</b></p>
+                        <p>One of my current projects is the development of an Aerospace Simulation App. This app is a unique blend of my skills as a student in aerospace engineering, a software developer, and a graphic designer. It's designed to provide users with immersive experiences related to aerospace scenarios. Imagine launching rockets into space, understanding orbital mechanics, and experiencing the thrill of spaceflight. It's not just about coding; it's about creating a visually engaging and interactive learning tool. By incorporating 3D graphics and animations, I'm making complex aerospace concepts more accessible and enjoyable for anyone interested in the field.</p>
+
+                        <a href="#" class="read-more">Support this project <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Interactive Augmented Reality Engineering Design Tool</h6>
+
+                        <p class="post-details">
+                            <a href="#">Number of pledged Supporters:</a>
+                            <a href="#"><i class="ti-hand-open text-danger"></i> 2</a>
+                        </p>
+                        <p><b>Project Description:</b></p>
+                        <p>This tool will help engineers with the design and modeling of complex mechanical and structural systems. It's not just about calculations; it's about visually understanding how things work. Users can input parameters, and the tool will generate 3D visualizations and simulations into reality, making it easier to comprehend the behavior of their designs. As a student engineer, a software developer, and a graphic designer, I'm combining my skills to also create a user-friendly, informative, and visually engaging tool that engineers will find incredibly useful.</p>
+
+                        <a href="#" class="read-more">Support this project <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">AI-Powered Personal Finance Assistant (Martha)</h4>
+
+                        <p class="post-details">
+                            <a href="#">Number of pledged Supporters:</a>
+                            <a href="#"><i class="ti-hand-open text-danger"></i> 3</a>
+                        </p>
+                        <p><b>Project Description:</b></p>
+                        <p> This app would help provide users with a comprehensive tool for managing their finances. It goes beyond traditional budgeting apps by harnessing the power of artificial intelligence. The assistant helps users create personalized financial plans, tracks their expenses, and offers actionable recommendations for saving money and achieving their financial goals. It's like having a financial advisor at your fingertips, providing budgeting insights, investment suggestions, and long-term financial planning—all tailored to the user's unique financial situation. This project aims to empower individuals to take control of their finances and make informed decisions for a secure financial future./p>
+
+                        <a href="#" class="read-more">Support this project <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+            </div>
+        </div>
+    </section>
+
+    <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+(233) 0 506 138 201</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">4th Link Tempo Estates - Spintex</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">tawiahivansiisi@gmail.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Ivan</span></a> 
+            </p>
+        </div>
+    </footer>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+</body>
+</html>
